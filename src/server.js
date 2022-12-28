@@ -1,4 +1,7 @@
 import express from 'express';
+const authRouter = require('./routes/route_auth');
+const mongoose = require('mongoose');
+
 
 
 const PORT = process.env.PORT || 3000;
